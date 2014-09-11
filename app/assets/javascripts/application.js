@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-ui/datepicker
 //= require jquery.mobile
+//= require jquery.mobile.datepicker
 //= require_tree .
