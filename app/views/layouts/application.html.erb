@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JqmTest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div data-role="page">
+  <div data-role="header">
+    <a href="\" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-home ui-btn-icon-notext">home</a>
+    <h1>Books</h1>
+  </div>
+  <div role="main" class="ui-content">
+    <%= yield %>
+  </div>
+  <div data-role="footer">
+		<h4>Page Footer</h4>
+  </div>
+</div>
+</body>
+</html>
